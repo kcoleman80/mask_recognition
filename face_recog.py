@@ -31,13 +31,13 @@ import cvlib as cv
 # In[3]:
 
 
-#image_path = '/Users/kellymclean/face_recognition/get_out.png'
+#image_path = 'IMG_PATH'
 
 
 # In[4]:
 
 
-image_path = '/Users/kellymclean/face_recognition/IMG_5744.PNG'
+image_path = '/IMG_PATH/IMG_5744.PNG'
 
 
 # In[5]:
