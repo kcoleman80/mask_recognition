@@ -1,25 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-pwd
-
-
-# In[2]:
-
-
 get_ipython().system('pip install opencv-python')
 
 
-# In[3]:
-
-
 get_ipython().system('pip install cvlib')
-
-
-# In[2]:
 
 
 #import libraries
@@ -28,19 +13,7 @@ import matplotlib.pyplot as plt
 import cvlib as cv
 
 
-# In[3]:
-
-
-#image_path = 'IMG_PATH'
-
-
-# In[4]:
-
-
 image_path = '/IMG_PATH/IMG_5744.PNG'
-
-
-# In[5]:
 
 
 im = cv2.imread(image_path)
@@ -48,13 +21,8 @@ plt.imshow(im)
 plt.show()
 
 
-# In[6]:
-
 
 faces, confidences = cv.detect_face(im)
-
-
-# In[7]:
 
 
 #loop through detected faces via cvlib and add bounding boxes
@@ -68,10 +36,6 @@ for face in faces:
     #display output
     plt.imshow(im)
     plt.show()
-
-
-# In[ ]:
-
 
 
 
